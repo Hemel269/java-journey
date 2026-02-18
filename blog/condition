@@ -5,3 +5,68 @@ so condition is becically when you do something by your program using condition
 1. if 
 2. if else
 3. else if
+4. switch 
+5. ternary
+
+**lets see how they work and how i use them
+
+1. if statement:
+  so when you have to do a condition than use if statement.
+#syntex:
+
+if (condition){
+  console.log(what you wanna print)
+}
+
+so if your if condition return something ture than console.log will be print otherwise it will not print
+
+^^ here is some example
+
+let age = 27                          //age is a variable and its value is 27
+
+if(age=>18){                         // here i give condition if age greter or equal to 18
+    console.log("you can vote")     // condition is true now it will print
+}
+output;
+you can vote
+
+2.if else statement:
+  so its be like another if statement but twist is now if it don't give true result you can print false result.
+#syntex;
+if (condition){
+  console.log(if true;what you wanna print)
+} esle {
+  console.log(if false;what you wanna print)
+}
+
+^^ here is example
+let age =15                         //age is a variable and its value is 15
+
+if(age>=18){                          // here i give condition if age greter or equal to 18
+    console.log("you can vote")       // if true than print this
+} else{
+    console.log("you cant vote")        // if false print this
+}
+output;
+you cant vote
+
+3.if ,else if , else statement:
+  so when you have many condition than use it 
+syntex;
+if (condition1) {
+  // code if condition1 is true
+} else if (condition2) {
+  // code if condition2 is true
+} else {
+  // code if none of the conditions are true
+}
+-you can add more condition on it
+
+
+
+
+
+
+
+
+
