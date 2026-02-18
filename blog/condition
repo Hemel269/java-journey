@@ -70,3 +70,80 @@ if (condition1) {
 
 
 
+
+
+
+
+@Question solve for #condition:
+
+1.Ask the user for their age and print:
+
+"Child" if age < 13
+"Teen" if age >= 13 and < 20
+"Adult" if age >= 20
+ans;
+let age = Number(prompt('pls enter your age;'))
+
+if(age<13){
+    console.log("you are child");
+} else if (age <= 20){              // i made a mistake on there just remove =
+    console.log("you are teen");
+} else{
+    console.log("you are adult");
+}
+
+
+2.Check if a number is even or odd and print the result.
+ans;
+let number = Number(prompt('input a number you wanna see odd or even you dumbass'))
+
+if(number%2===0){
+    console.log('your number is even bro')
+} else{
+    console.log('your number is odd bro')
+}
+
+3.Take a number and check:
+
+Print "Positive" if > 0
+Print "Negative" if < 0
+Print "Zero" if it’s 0
+ans;
+
+let num = Number(prompt("Pick a Number My Dear"))
+
+if(num>0){
+    console.log("Positive");
+} else if (num<0){
+    console.log("Negetive");
+} else {
+    console.log('sorry my dear you chose zero');
+}
+
+
+
+4.Ask the user to enter a month number (1-12) and print the corresponding month name using if...else if.
+ans;
+
+let month = Number(prompt("Enter a number (1-12) to see the month"));
+
+if (month === 1) console.log("January");
+else if (month === 2) console.log("February");
+else if (month === 3) console.log("March");
+else if (month === 4) console.log("April");
+else if (month === 5) console.log("May");
+else if (month === 6) console.log("June");
+else if (month === 7) console.log("July");
+else if (month === 8) console.log("August");
+else if (month === 9) console.log("September");
+else if (month === 10) console.log("October");
+else if (month === 11) console.log("November");
+else if (month === 12) console.log("December");
+else console.log("Invalid month number");
+
+
+
+
+
+
+
