@@ -1,3 +1,5 @@
+date 17/02/26 to 19/02/26
+
 #Conditional statement;
 so condition is becically when you do something by your program using condition
 
@@ -179,6 +181,23 @@ if (ueserName === name && password === pass) {
     console.log("Invalid user")
 }
 
+
+#### this is my condition project 
+let weight= Number(prompt('enter your weight in kg'))
+let hight = Number(prompt('enter your hight in meter'))
+
+
+let a = weight/(hight*hight);
+
+if (a >= 30){
+    console.log(`obese`)
+} else if (a >=25){
+    console.log('overweight')
+} else if (a >=18.5){
+    console.log('normal')
+} else  {
+    console.log('under weight')
+}
 
 
 
