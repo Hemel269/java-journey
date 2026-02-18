@@ -143,6 +143,43 @@ else console.log("Invalid month number");
 
 
 
+5.Login System (Real-life logic)
+Given:
+
+username = "admin"
+password = "1234"
+
+Input values:
+If both correct → "Login successful"
+If username correct but password wrong → "Wrong password"
+If username wrong → "Invalid user"
+
+my ans:
+let ueserName= "admin"
+let password = 1234
+
+let name = prompt('Enter your user name')
+let pass= Number(prompt("Enter your password"))
+
+
+if (ueserName===name && password === pass){
+    console.log('welcome chif')
+} else if (ueserName!==name){
+    console.log("invalid username")
+} else {
+    console.log("wrong password")
+}
+#it was almost perfect by here is the right one^^
+
+if (ueserName === name && password === pass) {
+    console.log("Login successful")
+} else if (ueserName === name && password !== pass) {
+    console.log("Wrong password")
+} else {
+    console.log("Invalid user")
+}
+
+
 
 
 
