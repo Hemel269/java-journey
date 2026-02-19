@@ -1,1 +1,77 @@
+date: 19/02/26
+
+#Variable = its a box where you can contain any value
+example:
+let a =5
+let b = "hemel"
+in there a and v are variable where i put value 5 and "hemel"
+^^rules of variable
+1. use letter,number,underscore,doller$ sign are allowed
+2.can't use reserbed word
+3.they are very case sensetive like A and a is different variable
+
+**importatnt:
+before declare variable you have to add let,const or var
+let is suggested
+before declare use let like let a= 3
+
+why you don't use const and var:
+you cant change the value of const
+and var are global its don't care about block
+but let care about your block thats why you must use let before variable;
+
+
+
+## Data type:
+1.premitive 2.object
+
+here is 7 type of premitive data type;
+1. Number; its a number
+2. String: is "" are there its a string
+3. boolean: its ture and false
+4.undefined : when value is not defined
+5. Null : its mean nothing
+6. symbol : its symbol dumb
+7.Bigint: i don't have time to learn this
+
+** you can see the type of variable just write console.log(typeof variable
+
+2.Object:
+for object i will make another folder but lets gain some knowladge about it  now
+
+so obj is a variable where you can put multiple value
+you are smart enough to get this thats why i am just put the chatgpt code for it
+here is it
+
+const person = {
+  name: "Najim",
+  age: 20,
+  isStudent: true
+};
+
+its just idea of obj i will add separete file for obj next lesson
+
+this is the end hold you breate till the end
+!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
