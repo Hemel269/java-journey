@@ -66,6 +66,21 @@ do{
 
 in this case the stoping condition will check last thats why it will run atleast once
 example;
+a= 1
+do{
+    console.log(a)
+    a++
+} while(a<=20);
+you can see what happened here 
+i command for do something and then give him condition
+
+^^so this three are the main of loops
+but there is two remain we will need them when using object and array
+but currently we don't know about obj and array but we will see how they work
+
+
+
+
 
 
 
