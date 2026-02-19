@@ -1,1 +1,53 @@
+operator is someting in coding help to operate things  // its a copy past
 
+1. Arithmatic operator
+
++
+-
+/
+*      // this all are no need to explain
+% : modulas // this is baghsesh in my language 
+** : exponentiotion // its give power like math
+
+this is called unary operator
+
+++ : increment // its mean if i write a++ means a=a+1
+-- : decrement // its mean if i write a-- means a=a-1
+
+
+2. Assignment operator:
+to assign some value
+
+=     //   its mean assigning value ,value is assign by right to left
++=    //   if a=5 and i enter a+=4 than it will add 5 and 4 and output will be 9
+-=    //    same logic 5-4 output will be 1
+/=     //   it will be 1.25
+*=     //   it will be 20 
+%=      //   it will be 1
+
+this is how it all work it feel easy to me thats why i did't show any code
+
+
+
+3. Comparisn operator:
+its for comparison, its return true and false
+
+1. == // equal
+2. === // equal but very strict its detect the number and string
+3. != // not equal
+4. !== // strict not equal
+5. > // greater
+6. < // less
+7. >= // greater or equal
+8. <= // less or equal
+
+
+4. Logical operator:
+comparison but twist here
+
+1. && : logical and //it use for two condition if both condition return true than it will say true, otherwise it give false
+2.|| : logical or // if any condition true , it will return true
+3.! : logical not // it will make true return false and false return true
+
+
+;;;
