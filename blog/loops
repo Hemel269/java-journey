@@ -1,1 +1,93 @@
+Date ; 19/02/26
+
+# Loop
+loop is the way to do task repeatly like if you wanna print something you will do console.log(what you wanna print)
+but when you have to do this in very large number than here is work loop
+
+^^ there is some kind of loops but for me according to 80/20 rule i am not covering all
+
+1. for loop
+2.while loop
+3. do while loop
+
+now i am going to explain it ,how it work, when to use, and how to use 
+there you will find syntex and my solved question and lastly one or two project using loop
+so lets begin
+
+1. FOR LOOP
+  syntex
+for (initializaion,stop condition,update condition)
+this is the way to declare a for loop
+
+so if you wanna do print 1 to 100 ;
+^^^
+for (let i= 1; i<=100; i++){ 
+    console.log(i)
+}
+
+so in there i= 1 jsut declare the value of i 
+than stop condition like if i equal or less than 100 than always i++(i=i+1)
+this is how it will print 1 to 100;
+
+in console.log() i put my name or something string than it will print it 100 times;
+##special note ; if the stoping condition not declare properly than loop will be go infinite time so make sure this
+
+2.WHILE LOOP;
+syntex;
+
+while (condition){
+  work
+  upgrade
+}
+you can see in while loop condition is on top and lastly there is updation..
+and good way is declare variable before start the loop
+
+example;
+let a=1                     // declare the value
+while(a<=10){               // the stoping condition
+    console.log(a)
+    a++                     // there is updation
+}
+in here firstly declare the variable 
+and give this a condition if a less than or qual to 10 than it will run
+and a++(a=a+1) this is update condition
+in here you can assign any value to a
+
+#### special note; every loop work like this it will check the stop condition than the updation ,if stop condition return false than it will stop
+
+
+3.DO WHILE LOOP
+syntex
+let = assign your value
+do{
+  do work
+  updatetion
+} while (condition)
+
+in this case the stoping condition will check last thats why it will run atleast once
+example;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
