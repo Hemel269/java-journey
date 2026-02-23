@@ -1,1 +1,55 @@
+Date: 23/02/26 
+what is arrays?
+~ its a variable whre you can put multiple value. but in line
+
+let array= [50,60,29,35]   // this is how you can declare array
+array index count start with 0 than 1 than2
+
+example:
+
+let anime=[ 'Naruto','Bleach','One peice']         // declare array
+console.log(anime)
+output:
+0.Naruto
+1.Bleach
+2.One peice
+
+so you can see its start with 0 index
+anime[2] = One peice                                //single array declare
+so there is array name: anime
+if you command anime.lenght it will show 3          //array leangth
+
+^^ array are mutible, 
+you can change array after declaration like;
+anime[2] = "vinland saga"                            // change the arrays
+the 2 no index is now change "One peice" to "vindland saga"
+
+
+^^ Loops in arrays
+
+^^ for loop                                           //for loop
+
+for(let i = 0; i<anime.length; i++){                 // this is for loop syntex
+    console.log(anime[i])
+}
+
+^^ for of loop                                        //for loop
+
+for (big of anime){                                // its make anime name big 
+    console.log(big)
+}
+
+^^important method for arrays...
+1.anime.push("aot")                                //push method
+this method push new item in array in last
+
+2.anime.pop(
+
+
+
+
+
+
+
+
 
