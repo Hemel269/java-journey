@@ -1,1 +1,63 @@
+Functions is a block of code desined for doing any specific task.
+
+^^ syntex;
+functions funtionsName(){       //declare the functions
+  //your work
+}
+
+functionsName                  //call the function
+
+^^ example:
+
+function printHello(){             //declared the function name printHello
+    console.log('Hello')
+}
+printHello()                       //call the functions
+output: Hello
+
+## function can take input:
+function hemel(name){                //input called parameter
+    console.log("hello"+  name)
+}
+hemel(' boss')                       //called argument
+
+^^ you can also return value with functions:
+function add(a,b){
+    return a+b
+}
+let result = add(4,6)                  //return value is saved into variable "result"
+console.log(result)
+output: 10
+
+## you can use function as much you want
+## its scope is only on block code
+
+^^Arrow function:  // arrow functions
+
+let add = (a, b) => {        // '=>' will work like function,it just replaced the functions keyword
+    return a + b
+}
+
+## write functons name this way , you will undrestand by reading it.
+
+QS : Create a function using "function" keyword that takes string as a argument and return the number of vowel in the string:
+
+function countVowel(string){                    // declare the function
+    let count = 0;
+    for (let a of string){                      //using loop for checking every character is string
+        if (a ==="a" || a === 'e' || a === 'i' || a === 'o' || a === 'u'){  //giving the conditons
+            count++                   //if match conditions than count=count+1
+        }
+    }
+    console.log(count)                          // print final count
+}
+countVowel('hemel')                             //calling the functions
+countVowel('this is the end')                      //calling the functions
+
+Output:
+2    // cuz there is two vowel
+4   // in 2nd call there is four vowel
+
+
+
 
